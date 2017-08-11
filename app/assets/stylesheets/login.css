@@ -71,3 +71,17 @@ input[type=email]:valid {
 input[type=password]:valid {
 	border: 2px solid rgba(163,81,81,0.5);
 }
+
+button[type=submit] {
+	border: none;
+	background-color: orange;
+	color: inherit;
+	display: block;
+	margin: 5px auto;
+	padding: 15px 40px;
+	cursor: pointer;
+}
+
+button[type=submit]:hover {
+	background-color: darkorange;
+}
