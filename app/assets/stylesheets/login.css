@@ -1,12 +1,13 @@
 body {
 	background-color: #045166;
+	color: white;
 }
 
-.login-box {
+.box {
 	align-items: center;
 	background-color: #045166;
 	color: inherit;
-	display-flex;
+	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	height: 100vh;
@@ -17,20 +18,30 @@ body {
 
 .login-box {
 	background-color: rgba(0,0,0,0.5);
-	width: 400px
 	height: 550px;
+	padding: 20px;
+	width: 400px;
 }
 
 .description-box {
 	background-color: inherit;
-	width: 400px
 	height: 550px;
+	width: 400px
+}
+
+h3, h4, h2 {
+	margin: 5px 0 5px 0;
+}
+
+label, input {
+	display: block;
+	margin: 15px 0 15px 0;
 }
 
 @media screen and (max-width: 500px) {
-	.login-box {
+	.box {
 		align-items: center;
-		background-color: rgba(0,0,0,0.5);
+		background-color: #045166;
 		color: inherit;
 		display-flex;
 		flex-direction: column;
@@ -43,8 +54,10 @@ body {
 }
 
 input[type=email], input[type=password] {
+	padding: 6px;
 	border: 2px solid rgba(0,0,0,0.3);
 	background-color: rgba(128,128,128,0.5);
+	width: 100%;
 }
 
 input[type=email]:focus, input[type=password]:focus {
