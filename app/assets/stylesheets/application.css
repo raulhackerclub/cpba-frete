@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  */
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 .{
 	box-sizing: border-box;
@@ -23,18 +24,18 @@
 }
 
 ::selection {
-    background-color: ##6e2dd0;
+    background-color: #045166;
     color: #EAEAEA;
 }
 
 ::-moz-selection {
-    background-color: ##6e2dd0;
+    background-color: #045166;
     color: #EAEAEA;
 }
 
 body {
 	color: #1F1F1F;
-    font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+    font-family: 'Oswald', "Century Gothic", Helvetica, Arial, sans-serif;
     font-size: 12pt;
     line-height: 1.2;
 }

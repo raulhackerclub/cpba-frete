@@ -1,0 +1,60 @@
+body {
+	background-color: #045166;
+}
+
+.login-box {
+	align-items: center;
+	background-color: #045166;
+	color: inherit;
+	display-flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	height: 100vh;
+	justify-content: space-around;
+	padding: 30px;
+	width: 100vw;
+}
+
+.login-box {
+	background-color: rgba(0,0,0,0.5);
+	width: 400px
+	height: 550px;
+}
+
+.description-box {
+	background-color: inherit;
+	width: 400px
+	height: 550px;
+}
+
+@media screen and (max-width: 500px) {
+	.login-box {
+		align-items: center;
+		background-color: rgba(0,0,0,0.5);
+		color: inherit;
+		display-flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		height: 100vh;
+		justify-content: space-around;
+		padding: 30px;
+		width: 100vw;
+	}
+}
+
+input[type=email], input[type=password] {
+	border: 2px solid rgba(0,0,0,0.3);
+	background-color: rgba(128,128,128,0.5);
+}
+
+input[type=email]:focus, input[type=password]:focus {
+	outline:none;
+}
+
+input[type=email]:valid {
+	border: 2px solid rgba(163,81,81,0.5);
+}
+
+input[type=password]:valid {
+	border: 2px solid rgba(163,81,81,0.5);
+}
